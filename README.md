@@ -10,6 +10,7 @@ Se recomienda poner la terminal en modo "split", es decir pantalla dividida, en 
 1º descargamos el script
 ```bash
 git clone https://github.com/reycotallo98/penguinator.git
+pip install openai
 ```
 2º Ejecutamos el script
 ```bash
