@@ -3,7 +3,7 @@ Esta herramienta, tiene como objetivo ayudar a aquellas personas que comiencen a
 
 ## Precio por consulta
 Esta herramienta requiere de una API Key valida de [OpenAI](https://platform.openai.com/account/billing/overview), sobre el precio que cuesta, no supone un gasto significante, ya que se basa en chatgpt 3.
-y necesitaríamos hacer 1000000 de consultas para gastar 1$, aquí tenéis los diferentes precios [Precios OpenAI](https://openai.com/pricing)
+y necesitaríamos generar 1000000 palabras para gastar 1$, aquí tenéis los diferentes precios [Precios OpenAI](https://openai.com/pricing)
 
 ## Uso
 Se recomienda poner la terminal en modo "split", es decir pantalla dividida, en un lado ejecutamos el script y en la otra trabajamos; además se recomienda tener una carpeta en home llamada tools, donde almacenar este tipo de scripts.
