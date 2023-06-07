@@ -2,7 +2,7 @@ import subprocess
 import openai
 import os
 
-openai.api_key =""
+openai.api_key ="#APIKEY"
 
 control = True
 
@@ -36,4 +36,4 @@ while control:
     if prompt == "N":
         control = False
     else:
-        os.system("cowsay -t -f tux "+ preguntar(prompt))
+        os.system("cowsay -t -f tux "+ "'" + preguntar(prompt) + "'")# Si le quitamos los "'" se ejecuta el comando y no lo explica, funcionaría como un asistente funcional y no educativo
