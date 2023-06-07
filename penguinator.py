@@ -30,6 +30,7 @@ def preguntar(prompte):
 
 
 while control:
+    subprocess.call("clear")
     frasedia = subprocess.call("fortune")
     subprocess.call("cowsay", "-t", "-f", "tux", frasedia + "¿en que puedo ayudarte?")
     prompt = input("Escribe tu consulta sobre linux, si quieres salir escribe 'N'")
