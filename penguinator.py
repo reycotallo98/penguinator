@@ -2,7 +2,7 @@ import subprocess
 import openai
 import os
 
-openai.api_key ="PON AQUI tu APi"
+openai.api_key =#APIKEY
 
 control = True
 
